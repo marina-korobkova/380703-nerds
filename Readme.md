@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [marina korobkova](https://up.htmlacademy.ru/htmlcss/17/user/380703).
-* Наставник: `Неизвестно`.
+* Наставник: [Виктория Коваленко](https://up.htmlacademy.ru/htmlcss/17/42638)
 
 ---
 
