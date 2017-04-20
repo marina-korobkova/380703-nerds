@@ -1,0 +1,41 @@
+body {
+	font-family: Roboto;
+	color:black;
+}
+h1.slider-title,
+h1.header-title {
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 55px;
+}
+
+h2.features-title {	
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;	
+}
+h2.about-us-title {
+	font-size: 45px;
+	font-weight: 500;
+	line-height: 45px;
+}
+h2.footer-title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 36px;
+}
+h2.feedback-title {
+	font-size: 45px;
+	font-weight: 500;
+	line-height: 45px;
+}
+h2.filter {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+}
+h3.catalog-list-title {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+}
