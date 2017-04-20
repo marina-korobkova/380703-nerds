@@ -2,8 +2,8 @@ body {
 	font-family: Roboto;
 	color:black;
 }
-h1.slider-title,
-h1.header-title {
+.slider-title,
+.header-title {
 	font-size: 55px;
 	font-weight: 500;
 	line-height: 55px;
@@ -14,27 +14,27 @@ h1.header-title {
 	font-weight: 700;
 	line-height: 30px;	
 }
-h2.about-us-title {
+.about-us-title {
 	font-size: 45px;
 	font-weight: 500;
 	line-height: 45px;
 }
-h2.footer-title {
+.footer-title {
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 36px;
 }
-h2.feedback-title {
+.feedback-title {
 	font-size: 45px;
 	font-weight: 500;
 	line-height: 45px;
 }
-h2.filter {
+.filter {
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 30px;
 }
-h3.catalog-list-title {
+.catalog-list-title {
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 30px;
