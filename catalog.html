@@ -7,7 +7,7 @@
 </head>
 <body>
     <header class="main-header">
-      	<div class="container">
+      	<div class="container clearfix">
             <a class="logotip" href="#">
                 <div class="logo">
           		    <img src="img/logo.png" width="160" height="65" alt="Nerds">
@@ -37,10 +37,10 @@
             </div>
         </div>
     </header>  
-    <main class="content">
-        <aside class="filters">
-            <form action="#" method="post">
-                <div class="filters-range">
+    <main class="container clearfix">
+        <div class="catalog-left-column">
+            <aside class="filters">
+                <form action="#" method="post">
                     <h2 class="filter">Стоимость:</h2>
                     <div class="range">
                         <div class="range-line">
@@ -61,7 +61,7 @@
                             до <input class="max-price" type="text" value="15 000">
                         </label>
                     </div>
-                </div>
+                
                 <div class="filter-grid">
                     <h2 class="filter">Сетка:</h2>
                     <ul>
@@ -105,12 +105,13 @@
                     </ul>   
                 </div>
                 <button class="btn" type="submit">Показать</button>  
-            </form>
-        </aside>
-        <section class="catalog-list">
-            <div class="catalog-list-sort">
+                </form>
+            </aside>
+        </div>
+        <section class="catalog-right-column ">
+            <div class="catalog-list-sort clearfix">
                 <h2 class="filter">Сортировать:</h2>
-                <ul>
+                <ul class="sorting-menu">
                     <li>
                         <a class="sort-price" href="#">По цене</a>
                     </li>
@@ -125,101 +126,115 @@
                     <a class="icon-up" href="#"></a>
                     <a class="icon-down" href="#"></a>
                 </div>
-            </div>    
-            <article class="catalog-sedona">
-                <div class="catalog-image">
-                    <img src="img/sedonasite.jpg" width="360" height="576" alt=""> 
-                </div>
-                <div class="catalog-text">
-                    <h3 class="catalog-text-title">Sedona</h3>
-                    <p>Информационный сайт <br> для туристов</p>
-                    <a href="#" class="btn">9900 Р.</a>
-                </div>                                                    
-            </article>
-            <article class="catalog-pink">
-                <div class="catalog-image">
-                    <img src="img/pinksite.jpg" width="360" height="576" alt="">
-                </div>
-                <div class="catalog-text">
-                    <h3 class="catalog-text-title">Pink App</h3>
-                    <p>Продуктовый лендинг <br> приложения для iOS и Android</p>
-                    <a href="#" class="btn">9900 Р.</a>
-                </div>                                   
-            </article>
-            <article class="catalog-barbershop">
-                <div class="catalog-image">
-                    <img src="img/barbershopsite.jpg" width="360" height="576" alt="">
-                </div>
-                 <div class="catalog-text">
-                    <h3 class="catalog-text-title">Barbershop</h3>
-                    <p>Сайт салоны красоты.<br>Для мужчин, да</p>
-                    <a href="#" class="btn">9900 Р.</a>
-                </div>                                  
-            </article>
-            <article class="catalog-mishka">
-                <div class="catalog-image">
-                    <img src="img/mishkasite.jpg" width="360" height="576" alt="">
-                </div>
-                 <div class="catalog-text">
-                    <h3 class="catalog-text-title">Mishka</h3>
-                    <p>Интернет-магазин<br>вязаных игрушек</p>
-                    <a href="#" class="btn">9900 Р.</a>
-                </div>                                 
-            </article>
-            <article class="catalog-aplus">
-                <div class="catalog-image">
-                    <img src="img/aplussite.jpg" width="360" height="576" alt="">
-                </div>
-                <div class="catalog-text">
-                    <h3 class="catalog-text-title">A plus</h3>
-                    <p>Лендинг курсов повышения<br>квалификации</p>
-                    <a href="#" class="btn">9900 Р.</a>
-                </div>                                  
-            </article>
-            <article class="catalog-kvast">
-                <div class="catalog-image">
-                    <img src="img/kvastsite.jpg" width="360" height="576" alt="">
-                </div>
-                <div class="catalog-text">
-                    <h3 class="catalog-text-title">Кваст</h3>
-                    <p>Промо-сайт производителя<br>крафтового сайта</p>
-                    <a href="#" class="btn">9900 Р.</a>
-                </div>                                  
-            </article>
-        </section>
-        <section class="catalog-pages">   
-            <div class="pages">
-                <a href="#" class="btn">1</a>
-                <a href="#" class="btn">2</a>
-                <a href="#" class="btn">3</a>
-                <a href="#" class="btn">Следующая</a>
-            </div>     
-        </section>
+            </div> 
+            <div class="catalog clearfix">
+                <article class="catalog">
+                    <div class="catalog-image">
+                            <img src="img/sedonasite.jpg" width="360" height="576" alt="Седона">
+                    </div>
+                    <a href="#" class="catalog-item">
+                       <div class="catalog-item-block">
+                            <h3 class="catalog-item-title">Sedona</h3>
+                            <p class="catalog-item-info">Информационный сайт <br> для туристов</p>
+                            <a href="#" class="btn">9900 Р.</a>
+                        </div> 
+                    </a>
+                </article>
+                <article class="catalog">
+                    <div class="catalog-image">
+                            <img src="img/pinksite.jpg" width="360" height="576" alt="">
+                    </div>
+                    <a href="#" class="catalog-item">
+                       <div class="catalog-item-block">
+                            <h3 class="catalog-item-title">Pink App</h3>
+                            <p class="catalog-item-info">Продуктовый лендинг <br> приложения для iOS и Android</p>
+                            <a href="#" class="btn">9900 Р.</a>
+                        </div> 
+                    </a>
+                </article>
+                <article class="catalog">
+                    <div class="catalog-image">
+                            <img src="img/barbershopsite.jpg" width="360" height="576" alt="">
+                    </div>
+                    <a href="#" class="catalog-item">
+                       <div class="catalog-item-block">
+                            <h3 class="catalog-item-title">Barbershop</h3>
+                            <p class="catalog-item-info">Сайт салоны красоты.<br>Для мужчин, да</p>
+                            <a href="#" class="btn">9900 Р.</a>
+                        </div> 
+                    </a>
+                </article>
+                <article class="catalog">
+                    <div class="catalog-image">
+                            <img src="img/mishkasite.jpg" width="360" height="576" alt="">
+                    </div>
+                    <a href="#" class="catalog-item">
+                       <div class="catalog-item-block">
+                            <h3 class="catalog-item-title">Mishka</h3>
+                            <p class="catalog-item-info">Интернет-магазин<br>вязаных игрушек</p>
+                            <a href="#" class="btn">9900 Р.</a>
+                        </div> 
+                    </a>
+                </article>
+                <article class="catalog">
+                    <div class="catalog-image">
+                            <img src="img/aplussite.jpg" width="360" height="576" alt="">
+                    </div>
+                    <a href="#" class="catalog-item">
+                       <div class="catalog-item-block">
+                            <h3 class="catalog-item-title">A plus</h3>
+                            <p class="catalog-item-info">Лендинг курсов повышения<br>квалификации</p>
+                            <a href="#" class="btn">9900 Р.</a>
+                        </div> 
+                    </a>
+                </article>
+                <article class="catalog">
+                    <div class="catalog-image">
+                            <img src="img/kvastsite.jpg" width="360" height="576" alt="">
+                    </div>
+                    <a href="#" class="catalog-item">
+                       <div class="catalog-item-block">
+                            <h3 class="catalog-item-title">Кваст</h3>
+                            <p class="catalog-item-info">Промо-сайт производителя<br>крафтового сайта</p>
+                            <a href="#" class="btn">9900 Р.</a>
+                        </div> 
+                    </a>
+                </article>
+            </div>
+            <section class="catalog-pages">   
+                <div class="pages">
+                    <a href="#" class="btn">1</a>
+                    <a href="#" class="btn">2</a>
+                    <a href="#" class="btn">3</a>
+                    <a href="#" class="btn">Следующая</a>
+                </div>     
+            </section>     
     </main>    
     <footer class="main-footer">
-      	<div class="container">
-      	     <section class="footer-map">
-                <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123807!2d30.320894615855657!3d59.938796869048204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1492674075726" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>    
-                    </iframe>
-                </div>
-             <section class="footer-contacts">
-				NЁRDS DESIGN STUDIO <br>
-            	191186, Санкт-Петербург,<br>
-            	ул. Б. Конюшенная, д.19/8 <br>
-				Телефон: +7 (812) 275-75-75<br>
-				<a href="#" class="btn">Напишите нам</a> 	                 		
-        	</section>
-        	<section class="footer-social">
-  				<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-          		<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          		<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-          	</section>
-          	<section class="footer-friendship">
-          		<h1 class="footer-title">Давайте дружить, это выгодно!</h1>
-          		<p>Скидка 10% для друзей из социальных сетей!</p>	
-          	</section>	
-      	</div>
+        <div class="container clearfix">
+        <section class="map ">
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123807!2d30.320894615855657!3d59.938796869048204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1492674075726" height="416" width="100%"frameborder="0" style="border:0">    
+              </iframe>
+            </div>
+            <div class="contacts">
+             NЁRDS DESIGN STUDIO <br>
+            191186, Санкт-Петербург,<br>
+            ул. Б. Конюшенная, д.19/8 <br>
+             Телефон: +7 (812) 275-75-75<br>
+             <a href="#" class="btn">Напишите нам</a> 
+            </div>            
+          </section>  
+            <section class="footer-social">
+                    <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+                <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+                <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+            </section>
+            <section class="footer-friendship">
+                <h2 class="footer-title">Давайте дружить, это выгодно!</h2>
+                <p>Скидка 10% для друзей из социальных сетей!</p>   
+            </section>  
+        </div>
     </footer>
     <div class="feedback">
         <form action="#" method="post">

@@ -1,8 +1,13 @@
+html,
 body {
 	font-family: Roboto;
 	color:black;
+	margin: 0;
+    padding: 0;
+    min-width: 1440px;
+    
 }
-.slider-title,
+/*.slider-title,
 .header-title {
 	font-size: 55px;
 	font-weight: 500;
@@ -38,4 +43,164 @@ body {
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 30px;
+}*/
+.slide {
+	display:none;
+}
+.slide-first {
+	background:url("../img/slide1.png") no-repeat;
+}
+.slide-second {
+	background:url("../img/slide2.png") no-repeat;
+}
+.slide-third {
+	background:url("../img/slide3.png") no-repeat;
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+.container {
+	width: 1160px;
+	margin:0 auto;
+	padding:0 20px;
+	outline:#00FF00 dotted thick;
+
+}
+.logo {
+	float: left;
+	width: 160px;
+	outline:#00008B dotted thick;
+}
+
+.main-navigation {
+	width: 600px;
+	float:left;
+	outline:#00008B dotted thick;
+}
+.block-cart {
+	width: 160px;
+	float: right;
+	outline:#00008B dotted thick;
+}
+
+
+.main-header {
+	margin-bottom: 80px;
+	outline:#FF0000 dotted thick;
+}
+
+
+.features {
+	margin-bottom: 162px;
+	outline:#FF0000 dotted thick;	
+}
+
+.features-item {
+	
+	float: left;
+	width: 360px;
+	margin-right: 40px;
+	outline:#00008B dotted thick;
+	
+}
+.features-item:last-child {
+  	margin-right: 0;
+}
+
+.info {
+	margin-bottom: 50px;
+	outline:#FF0000 dotted thick;
+	
+}
+.info-column-left {
+	min-height: 410px;
+	float: left;
+	width: 660px;
+	outline:#00008B dotted thick;
+}
+.info-column-right{
+ 	min-height: 410px;
+ 	float: right;
+ 	width: 400px;
+ 	outline:#00008B dotted thick;
+}
+
+.info-list li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 26px;
+}
+.info-list li:last-child {
+  	margin-right:0;
+}
+
+.partners {
+	outline: #FF0000 dotted thick;
+	font-size: 0;
+}
+
+.partners li {
+	
+	display: inline-block;
+	vertical-align: middle;
+	outline: #00008B dotted thick;
+	margin-left: 118px;
+
+}
+
+.partners li:nth-child(3n+1)  {
+    margin-left: 0;
+
+}
+
+.main-footer {
+	margin-top: 70px;
+	outline:#FF0000 dotted thick;
+}
+
+.footer-social {
+	min-height: 80px;
+	float:left;
+	width: 260px;
+	margin-right: 13px;
+	outline:#00008B dotted thick;
+}
+.footer-friendship {
+	min-height: 80px;
+	width: 560px;
+	float: right;
+	margin-right: 216px;
+	outline:#00008B dotted thick;
+}
+
+/*	КАТАЛОГ НЕРДС  */
+.catalog-left-column {
+	float: left;
+	width: 260px;
+	outline:#00008B dotted thick;
+}
+.catalog-right-column {
+
+	float:right;
+	width:760px;
+	outline:#00008B dotted thick;
+}
+.sorting-menu li {
+ 	display: inline-block;
+
+}
+.catalog {
+	display: inline-block;
+	outline:#00008B dotted thick;
+	margin-right: 40px;
+	margin-bottom:40px;
+
+}
+
+.catalog:nth-child(2n) {
+	margin-right:0;
 }
