@@ -12,7 +12,7 @@
           		<img src="img/logo.png" width="160" height="65" alt="Nerds">
         	</div>
         	<nav class="main-navigation">
-          		<ul>
+          		<ul class="navigation">
             		<li>
               			<a href="#">Студия</a> 
             		</li>
@@ -40,26 +40,43 @@
                 <label for="btn-2"></label>
                 <label for="btn-3"></label>
               </div>
-              <div class="sliders">
-                    <div class="slide slide-first">
-                        <h2 class="slider-title">Долго, дорого, 
-                            скрупулезно.</h2>
+              <div class="slider-container">
+                <div class="slider-item clearfix">
+                    <section class="slider-left-column ">
+                        <h2 class="slider-title">Долго, дорого, скрупулезно.</h2>
                         <p class="slider-info">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
                         <a href="#" class="btn slider-btn">узнать больше</a>
+                    </section>
+                    <div class="slider-right-column">
+                        <div class="slider-image">
+                            <img src="img/slide1.png" height="413" width="698" alt="">
+                        </div>
                     </div>
-              
-                    <div class="slide slide-second">
+                </div>
+                <!--<div class="slider-item clearfix">
+                    <section class="slider-left-column ">
                         <h2 class="slider-title">Любим математику как никто другой</h2>
                         <p class="slider-info">Никакого креатива, только математическеи формулы для расчета идеальных пропорций</p>
                         <a href="#" class="btn slider-btn">узнать больше</a>
+                    </section>
+                    <div class="slider-right-column clearfix">
+                        <div class="slider-image">
+                            <img src="img/slide2.png" height="413" width="698" alt="">
+                        </div>
                     </div>
-
-                    <div class="slide slide-third">
+                </div>
+                <div class="slider-item clearfix">
+                    <section class="slider-left-column ">
                         <h2 class="slider-title">Только ночь, только хардкор</h2>
                         <p class="slider-info">Работать днем как все?Мы против этого.Ближе к полуночи работа только начинается</p>
                         <a href="#" class="btn slider-btn">узнать больше</a>
+                    </section>
+                    <div class="slider-right-column clearfix">
+                        <div class="slider-image">
+                            <img src="img/slide3.png" height="413" width="698" alt="">
+                        </div>
                     </div>
-              </div>
+                </div>-->
         	</div>
       </div>		
               
@@ -120,34 +137,33 @@
 				  </div>
     	</section>
     	<section class="partners clearfix">
-         <ul class="partners">
+         <ul class="partners-image">
             <li>  
                 <a class="partners-item" href="//htmlacademy.ru/intensive/htmlcss">
           		    <img src="img/htmlacademy.png" width="199" height="68" alt="Html academy">
-        	     </a> 
-            </li>
-        	  <li>
+        	     </a>            
+        	</li>
+        	<li>
                 <a class="partners-item" href="#">
-          		    <img src="img/barbershop.png" width="199" height="68" alt="Barbershop borodinski">
+          		    <img src="img/barbershop.png" width="209" height="90" alt="Barbershop borodinski">
         	     </a>
             </li> 
         	  <li>
                 <a class="partners-item" href="#">
-          		    <img src="img/pink.png" width="199" height="68" alt="Pink">
+          		    <img src="img/pink.png" width="185" height="52" alt="Pink">
         	     </a> 
             </li>
 			       <li> 
                 <a class="partners-item" href="#">
-          		    <img src="img/mishka.png" width="199" height="68" alt="Mishka">
+          		    <img src="img/mishka.png" width="173" height="84" alt="Mishka">
         	     </a> 
             </li>
           </ul>
-    	</section>
-      
+    	</section>   
     </main>
+
     <footer class="main-footer">
-      	<div class="container clearfix">
-        <section class="map ">
+      	<section class="map-block ">
             <div class="map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123807!2d30.320894615855657!3d59.938796869048204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1492674075726" height="416" width="100%"frameborder="0" style="border:0">    
               </iframe>
@@ -159,8 +175,10 @@
              Телефон: +7 (812) 275-75-75<br>
              <a href="#" class="btn">Напишите нам</a> 
             </div>            
-          </section>  
-        	<section class="footer-social">
+        </section>
+        <div class="container clearfix">
+          
+        	   <section class="footer-social">
   				    <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           		<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           		<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
@@ -171,7 +189,7 @@
           	</section>	
       	</div>
     </footer>
-    <div class="feedback clearfix">
+    <div class="feedback">
         <form action="#" method="post">
         <h2 class="feedback-title">Напишите нам</h2>
          	  <label class="feedback-form" for="feedback-login">Ваше имя:</label>

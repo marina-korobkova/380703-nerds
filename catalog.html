@@ -14,7 +14,7 @@
         	   </div>
             </a>   
         	<nav class="main-navigation">
-          		<ul>
+          		<ul class="navigation">
             		<li>
               			<a href="#">Студия</a> 
             		</li>
@@ -32,7 +32,7 @@
         	<div class="block-cart">
             	<a class="cart" href="#">Корзина</a>
         	</div>
-        	<div class="header">
+        	<div class="title-wrapper">
                 <h1 class="header-title">Магазин готовых макетов</h1>
             </div>
         </div>
@@ -43,14 +43,10 @@
                 <form action="#" method="post">
                     <h2 class="filter">Стоимость:</h2>
                     <div class="range">
-                        <div class="range-line">
-
-                        </div>
-                        <div class="range-toggle-min">
-
-                        </div>
-                        <div class="range-toggle-max">
-
+                        <div class="skroll">
+                            <button type="button" class="skroll-left"> </button>
+                            <button type="button" class="skroll-right"> </button>
+                            <div class="skroll-field"> </div>
                         </div>
                     </div>
                     <div class="price-controls">
@@ -127,7 +123,7 @@
                     <a class="icon-down" href="#"></a>
                 </div>
             </div> 
-            <div class="catalog clearfix">
+            <div class="catalog-block clearfix">
                 <article class="catalog">
                     <div class="catalog-image">
                             <img src="img/sedonasite.jpg" width="360" height="576" alt="Седона">
@@ -211,7 +207,6 @@
             </section>     
     </main>    
     <footer class="main-footer">
-        <div class="container clearfix">
         <section class="map ">
             <div class="map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123807!2d30.320894615855657!3d59.938796869048204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1492674075726" height="416" width="100%"frameborder="0" style="border:0">    
@@ -225,6 +220,7 @@
              <a href="#" class="btn">Напишите нам</a> 
             </div>            
           </section>  
+        <div class="container clearfix">
             <section class="footer-social">
                     <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
                 <a class="social-btn social-btn-fb" href="#">Фейсбук</a>

@@ -6,8 +6,8 @@ body {
     padding: 0;
     min-width: 1440px;
     
-}
-/*.slider-title,
+}/* Оформление заголовков */
+.slider-title,
 .header-title {
 	font-size: 55px;
 	font-weight: 500;
@@ -43,19 +43,8 @@ body {
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 30px;
-}*/
-.slide {
-	display:none;
 }
-.slide-first {
-	background:url("../img/slide1.png") no-repeat;
-}
-.slide-second {
-	background:url("../img/slide2.png") no-repeat;
-}
-.slide-third {
-	background:url("../img/slide3.png") no-repeat;
-}
+
 
 .clearfix::after {
   content: "";
@@ -80,19 +69,42 @@ body {
 	width: 600px;
 	float:left;
 	outline:#00008B dotted thick;
+	height: 130px;
+}
+
+.navigation li {
+	 display: inline-block;
+	 vertical-align: middle;
+	 margin-right: 46px;
+}
+.navigation li:last-child {
+  	margin-right:0;
 }
 .block-cart {
 	width: 160px;
 	float: right;
 	outline:#00008B dotted thick;
+	height: 130px;
 }
-
-
+.slider-item {
+	outline:#00008B dotted thick;
+}
+.slider-left-column {
+    float: left;
+    width: 403px;
+    outline:#FF0000 dotted thick;
+    
+}
+.slider-right-column {
+    float: right;
+    width: 700px;
+    outline:#FF0000 dotted thick;
+   
+}
 .main-header {
 	margin-bottom: 80px;
 	outline:#FF0000 dotted thick;
 }
-
 
 .features {
 	margin-bottom: 162px;
@@ -140,20 +152,18 @@ body {
 
 .partners {
 	outline: #FF0000 dotted thick;
-	font-size: 0;
 }
 
-.partners li {
+.partners-image li {
 	
-	display: inline-block;
-	vertical-align: middle;
+	float: left;
+	min-width: 209px;
 	outline: #00008B dotted thick;
-	margin-left: 118px;
-
+	margin-right: 120px;
 }
 
-.partners li:nth-child(3n+1)  {
-    margin-left: 0;
+.partners-image li:nth-child(3n+1)  {
+    margin-right: 0;
 
 }
 
@@ -177,7 +187,45 @@ body {
 	outline:#00008B dotted thick;
 }
 
+
 /*	КАТАЛОГ НЕРДС  */
+.skroll {
+	width: 218px;
+	height: 5px;
+	margin-top: 20px;
+	position: relative;
+	background-color: black;
+}
+.skroll-left,
+.skroll-right {
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top:-8px;
+	z-index: 1;
+	border: none;
+	background-color: black;
+}
+.skroll-left {
+	left: 0px;
+}
+.skroll-right{
+	right: 57px;
+}
+.skroll-field {
+	width: 141px;
+	height: 5px;
+	position: absolute;
+	left: 54px;
+	background-color: black;
+}
+.title-wrapper {
+	margin:0 auto;
+	width: 760px;
+}
+
 .catalog-left-column {
 	float: left;
 	width: 260px;
@@ -194,10 +242,11 @@ body {
 
 }
 .catalog {
-	display: inline-block;
 	outline:#00008B dotted thick;
 	margin-right: 40px;
 	margin-bottom:40px;
+	float: left;
+	width: 360px;
 
 }
 
