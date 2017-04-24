@@ -57,7 +57,6 @@ body {
 	margin:0 auto;
 	padding:0 20px;
 	outline:#00FF00 dotted thick;
-
 }
 .logo {
 	float: left;
@@ -89,18 +88,13 @@ body {
 .slider-item {
 	outline:#00008B dotted thick;
 }
-.slider-left-column {
+.slider-first  {
     float: left;
     width: 403px;
     outline:#FF0000 dotted thick;
     
 }
-.slider-right-column {
-    float: right;
-    width: 700px;
-    outline:#FF0000 dotted thick;
-   
-}
+
 .main-header {
 	margin-bottom: 80px;
 	outline:#FF0000 dotted thick;
@@ -239,6 +233,7 @@ body {
 }
 .sorting-menu li {
  	display: inline-block;
+ 	vertical-align: middle;
 
 }
 .catalog {
