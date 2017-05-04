@@ -536,6 +536,11 @@ body {
     width: 21px;
     height: 21px;
 }
+.map {
+    height: 500%;
+    width: 600%;
+    border: none;
+}
 .footer-friendship {
     min-height: 80px;
     width: 560px;
@@ -736,12 +741,12 @@ body {
 .main-navigation .active::after {
     content: "";
     position: absolute;
-    right: 20px;
+    right: 10px;
     bottom: 0;
     left: 20px;
     width: 100%;
     height: 5px;
-    background-color: #ffffff;
+    background-color: #fb565a;
 }
 .main-navigation .active a:hover {
     background: none;
