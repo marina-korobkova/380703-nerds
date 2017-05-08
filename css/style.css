@@ -487,7 +487,7 @@ body {
   min-height: 80px;
   float:left;
   min-width: 260px;
-  margin-right: 60px;
+  margin-right: 135px;
   text-align: center;
 }
 .social-btn {
@@ -501,6 +501,7 @@ body {
     background: #e1e1e1;
     display: inline-block;
     vertical-align: top;
+    color: white;
 }
 .social-btn:last-child {
     margin-right: 0;
@@ -535,11 +536,16 @@ body {
     background-color: #d7373b;
     box-shadow: inset 0 3px 0 0 #b63e42; 
 }
-.footer-friendship {
+.btn-vk:active::before,
+.btn-fb:active::before,
+.btn-instra:active::before
+.footer-friendship { 
+    color: #283136;
+}
+.foorer-friendship {
     min-height: 80px;
     width: 560px;
     float: right;
-    margin-right: 204px;
 }
 .footer-title {
     font-size: 36px;
@@ -548,7 +554,8 @@ body {
     margin: 0px;
 }
 .footer-friendship p {
-    margin-top: 8px;
+    margin-top: 11px;
+    padding-left: 2px;
 }
 .map-block {
     position: relative;
@@ -801,7 +808,6 @@ body {
     cursor: pointer;
     margin-top: 46px;
 }
-
 /*  КАТАЛОГ НЕРДС  */
 .main-navigation .active {
     position: relative;
