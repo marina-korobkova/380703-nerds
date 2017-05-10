@@ -1,7 +1,7 @@
 
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     min-width: 1200px;
     font-family: "Roboto", "Arial", sans-serif;
     font-size: 16px;
@@ -17,7 +17,7 @@ body {
 }
 .container {
     width: 1160px;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 0 20px;  
 }
 .main-header {
@@ -25,7 +25,7 @@ body {
     background-color: #eeeeee;
 }
 .main-navigation {
-    float:left;
+    float: left;
     width: 600px;
     min-height: 40px;
     text-transform: uppercase;
@@ -38,9 +38,9 @@ body {
 }
 .main-navigation li {
     display: inline-block;
+     vertical-align: top;
     font-size: 16px;
-    line-height: 30px;
-    vertical-align: top;
+    line-height: 30px;  
 }
 .main-navigation a {
     display: block;
@@ -66,12 +66,12 @@ body {
 .cart {
     position: relative;
     display: inline-block;
+    vertical-align: top;
     padding-top: 77px;
     padding-left: 50px;
     padding-bottom: 20px;
     font-size: 16px;
-    line-height: 30px;
-    vertical-align: top;
+    line-height: 30px; 
     color: #000000;
     text-decoration: none;
 }
@@ -83,7 +83,8 @@ body {
     position: absolute;
     width: 15px;
     height: 15px;
-    background:url("../img/cart-icon.png") no-repeat;
+    background-image: url("../img/cart-icon.png");
+    background-repeat: no-repeat;
     opacity: 0.3;
     left: 10px;
     top: 83px;  
@@ -103,10 +104,10 @@ body {
 .logo:active {
     opacity: 0.3;
 }
-.slider{
+.slider {
     position: relative;
     width: 1160px;
-    margin:0 auto;
+    margin: 0 auto;
     height: 425px;
     clear: both;
 }
@@ -124,14 +125,14 @@ body {
     margin-left: -100px;
     text-align: center;
 }
-.slider-controls label{
+.slider-controls label {
     display: inline-block;
+    vertical-align: top;
     width: 6px;
     height: 6px;
     margin: 0 7px;
     background: white;
     border: 6px solid white;
-    vertical-align: top;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -140,28 +141,29 @@ body {
 #btn-3:checked ~ .slider-controls label[for="btn-3"] { 
     background: #c1c1c1;
 }
-.slide{
+.slide {
     position: absolute;
     top: 0;
     left: 0;
     width: 1220px;
     overflow: hidden;
-    padding-bottom: 100px;
+    padding-bottom: 82px;
 }
-.slide-text{
+.slide-text {
     max-width: 600px;
     padding-top: 67px;   
     color: #283136;
 }
-.slide-title{
+.slide-title {
     font-size: 55px;
     font-weight: 500;
     line-height: 55px;
     color: black;
-    margin-bottom: 29px;
+    margin-bottom: 27px;
 }
-.slide .btn{
+.slide .btn {
     display: inline-block;
+    vertical-align: top;
     padding-top: 15px;
     padding-left: 53px;
     padding-right: 54px;
@@ -170,7 +172,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 18px;
-    vertical-align: top;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
@@ -187,19 +188,22 @@ body {
     box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
     color: rgba(255,255,255,.3);
 }
-.slide:nth-child(1){
+.slide:nth-child(1) {
     background-image: url("../img/slide1.png");
+    background-color: #eeeeee;
     background-repeat: no-repeat;
     background-position: 83% 10px;
 }
-.slide:nth-child(2){
+.slide:nth-child(2) {
     background-image: url("../img/slide2.png");
     background-repeat: no-repeat;
+    background-color: #eeeeee;
     background-position: 83% -5px;
 }
-.slide:nth-child(3){
+.slide:nth-child(3) {
     background-image: url("../img/slide3.png");
     background-repeat: no-repeat;
+    background-color: #eeeeee;
     background-position: 100% 13px;
 }
 .slide{
@@ -215,13 +219,22 @@ body {
     display: block;
 }
 .slide-first {
-    background:url("../img/slide1.png") no-repeat 83% 7px;
+    background-image: url("../img/slide1.png");
+    background-repeat: no-repeat;
+    background-color: #eeeeee;
+    background-position: 83% 7px;
 }
 .slide-second {
-    background:url("../img/slide2.png") no-repeat 90% -10px;
+    background: url("../img/slide2.png");
+    background-repeat: no-repeat;
+    background-color: #eeeeee;
+    background-position: 90% -10px;
 }
 .slide-third {
-    background:url("../img/slide3.png") no-repeat 100% 0px;
+    background-image: url("../img/slide3.png");
+    background-repeat: no-repeat;
+    background-color: #eeeeee;
+    background-position: 100% 0;
 }
 .features {
     border-bottom: 2px solid rgba(0,0,0,.1);  
@@ -239,8 +252,9 @@ body {
 .features-title {
     text-transform: uppercase;
 }
-.btn-red{
+.btn-red {
     display: inline-block;
+    vertical-align: top;
     padding-top: 17px;
     padding-left: 39px;
     padding-right: 39px;
@@ -249,7 +263,6 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 18px;
-    vertical-align: top;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
@@ -266,8 +279,9 @@ body {
     box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
     color: rgba(255,255,255,.3);
 }
-.btn-green{
+.btn-green {
     display: inline-block;
+    vertical-align: top;
     padding-top: 17px;
     padding-left: 39px;
     padding-right: 39px;
@@ -276,7 +290,6 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 18px;
-    vertical-align: top;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
@@ -293,8 +306,9 @@ body {
     box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
     color: rgba(255,255,255,.3);
 }
-.btn-yellow{
+.btn-yellow {
     display: inline-block;
+     vertical-align: top;
     padding-top: 17px;
     padding-left: 39px;
     padding-right: 39px;
@@ -303,7 +317,6 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 18px;
-    vertical-align: top;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
@@ -337,7 +350,8 @@ body {
     margin-top: 30px;
 }
 .info-column-left p {
-    margin-bottom: 35px;    
+    margin-top: -2px;
+    margin-bottom: 37px;    
 }
 .info-list-title {
     text-transform: uppercase;
@@ -359,6 +373,7 @@ body {
     width: 25px;
     border: 1px solid #fb565a;
     content: "";
+    content:'';
 }
 .info-list{
     list-style: none;
@@ -400,7 +415,7 @@ body {
 .procent {
     font-size: 28px;
     position: absolute;
-    top: -20px;
+    top: -4px;
 }
 .info-list-slogan {
     font-size: 16px;
@@ -486,12 +501,12 @@ body {
 }
 .footer-social {
     min-height: 80px;
-    float:left;
+    float: left;
     min-width: 260px;
-    margin-right: 135px;
     text-align: center;
+    margin-right: 137px;
 }
-.social-btn {
+a.social-btn {
     position: relative;
     width: 78px;
     height: 78px;
@@ -499,10 +514,11 @@ body {
     margin-right: 10px;
     cursor: pointer;
     border-radius: 100%;
-    background: #e1e1e1;
+    background-color: #e1e1e1;
     display: inline-block;
     vertical-align: top;
-    color: white;
+    color: white; 
+    text-indent: -9999px;   
 }
 .social-btn:last-child {
     margin-right: 0;
@@ -512,13 +528,14 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    background: url("../img/sprite.png") no-repeat;
+    transform: translate(-50%, -50%); 
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
 }
 .btn-vk::before {
     background-position: 3px -264px;
     width: 30px;
-    height: 30px;
+    height: 30px; 
 }
 .btn-fb::before {
     background-position: 7px -210px;
@@ -528,7 +545,7 @@ body {
 .btn-instra::before {
     background-position: 5px -238px;
     width: 30px;
-    height: 30px;
+    height: 30px; 
 }
 .social-btn:hover {
     background: #fb565a;
@@ -539,20 +556,28 @@ body {
 .social-btn:active::before {
     opacity: 0.3;
 }
-.foorer-friendship {
+.footer-friendship {
     min-height: 80px;
-    width: 560px;
-    float: right;
+    width: 550px;
+    float: left;
 }
 .footer-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 36px;
     margin: 0px;
+    padding-top: 6px;
 }
 .footer-friendship p {
     margin-top: 11px;
     padding-left: 2px;
+}
+.map {
+    background-color: #e9e5dc;
+    background-image: url("../img/map.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 416px;
 }
 .map-block {
     position: relative;
@@ -563,11 +588,14 @@ body {
 }
 .contacts{
     position: absolute;
-    top: 41px;
+    top: 53px;
     left: 12%;
     box-sizing: border-box;
     width: 320px;
-    padding: 48px;
+    padding-top: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 35px;
     background: #fff;
 }
 .contacts h3 {
@@ -576,6 +604,7 @@ body {
     font-weight: 700;
     line-height: 30px;
     text-transform: uppercase;
+    margin-top: 6px;
 }
 .contacts p {
     color: #666;
@@ -589,15 +618,14 @@ body {
 }
 .feedback-btn{
     display: inline-block;
+    vertical-align: top;
     padding-top: 18px;
     padding-bottom: 18px;
     padding-left: 45px;
     padding-right: 45px;
-    color: white;
     font-size: 16px;
     font-weight: 500;
     line-height: 18px;
-    vertical-align: top;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
@@ -703,7 +731,7 @@ body {
             animation: shake 0.6s;
 }
 .feedback-content-close {
-  position: absolute;
+    position: absolute;
     top: 80px;
     right: 90px;
     width: 21px;
@@ -787,6 +815,7 @@ body {
 }
 .submit-btn {
     display: inline-block;
+    vertical-align: top;
     padding-top: 18px;
     padding-bottom: 18px;
     padding-left: 82px;
@@ -795,7 +824,6 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 18px;
-    vertical-align: top;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
@@ -834,7 +862,7 @@ body {
     margin-bottom: 55px;
     padding-top: 190px;
     padding-bottom: 52px;
-    padding-left: 214px;
+    padding-left: 216px;
 }
 .sort {
     float: left;
@@ -873,7 +901,7 @@ body {
 .range-controls .toggle {
     position: absolute;
     top: 30px;
-    left: 0px;
+    left: 0;
     width: 4px;
     height: 4px;
     border: 8px solid #fff;
@@ -895,6 +923,7 @@ body {
 }
 .price-controls label {
     display: inline-block;
+    vertical-align: top;
     width: 50%;
     font-size: 16px;
     color: #283136;
@@ -902,7 +931,7 @@ body {
     line-height: 22px;
 }
 .price-controls {
-    font-size: 0px;
+    font-size: 0;
 }
 .price-controls input {
     border: none;
@@ -957,7 +986,7 @@ body {
     line-height: 30px;
     color: #283136;
     cursor: pointer;
-    opacity: 0.4;
+    opacity: 0.5;
     margin-bottom: 9px;
     padding-left: 36px;
   }
@@ -974,23 +1003,23 @@ input[type="radio"] + span {
     background-position: 0 -90px;
     background-image: url("../img/sprite.png");
     background-repeat: no-repeat;
-    cursor:pointer;
-    opacity: 0.4;
+    cursor: pointer;
+    opacity: 0.9;
 }
 input[type="radio"]:checked + span {
     background-position: 0 -120px;
 }
 input[type="checkbox"] + span {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 27px;
     height: 23px;
     background-position: 0 -30px;
     background-image: url("../img/sprite.png");
     background-repeat: no-repeat;
-    cursor:pointer;
-    opacity: 0.4;
+    cursor: pointer;
+    opacity: 0.9;
 }
 input[type="checkbox"]:checked + span {
     background-position: 0 -60px;
@@ -1009,6 +1038,7 @@ input[type="radio"]:disabled + span {
 }
 .sort-btn {
     display: inline-block;
+     vertical-align: top;
     padding-top: 17px;
     padding-bottom: 19px;
     padding-left: 90px;
@@ -1016,7 +1046,6 @@ input[type="radio"]:disabled + span {
     font-size: 16px;
     font-weight: 500;
     line-height: 18px;
-    vertical-align: top;
     text-align: center;
     color: black;
     text-transform: uppercase;
@@ -1082,16 +1111,18 @@ input[type="radio"]:disabled + span {
 }
 a.arrow {
     display: inline-block;
+    vertical-align: middle;
     margin: 0;
     margin-right: 25px;    
-    font-size: 0;
     position: relative;
+    text-indent: -9999px;
 }
 .arrow::before {
     content: "";
     display: inline-block;
+    vertical-align: middle;
     position: absolute;
-    top: -25px;
+    top: -11px;
     left: 15px;
 }
 .arrow-down::before {
