@@ -446,6 +446,9 @@ body {
 .line:nth-child(3n) {
     margin-right: 0;
 }
+.partners {
+    margin-bottom: 85px;
+}
 .partners-html {
     width: 199px;
     height: 68px;
@@ -496,7 +499,7 @@ body {
     opacity: 0.2;
 }
 .main-footer {
-    margin-top: 80px; 
+    padding-bottom: 78px;
 }
 .footer-social {
     min-height: 80px;
@@ -812,6 +815,7 @@ a.social-btn {
     padding-top: 12px;
     padding-bottom: 89px;
     padding-left: 10px;
+    resize: none;
 }
 .submit-btn {
     display: inline-block;
@@ -1321,5 +1325,5 @@ a.arrow {
     margin-bottom: 15px;
 }
 .pagination {
-    margin-bottom: -20px;
+    margin-bottom: 60px;
 }
